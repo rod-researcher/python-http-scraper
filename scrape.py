@@ -10,7 +10,7 @@ start_time = time.time()
 cntr = 0
 time_out_sec = 2.4
 
-helpmsg = "Usage : scrape-scan.py IP-network\n i.e. scrape-scan.py 192.168.0.0/24\n alowed CIDR netmasks are from /8 to /32"
+helpmsg = "Usage : scrape.py IP-network\n i.e. scrape.py 192.168.0.0/24\n alowed CIDR netmasks are from /8 to /32"
 
 
 if len(sys.argv) != 2:
